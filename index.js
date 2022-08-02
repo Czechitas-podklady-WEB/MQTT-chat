@@ -46,7 +46,7 @@ function onMessageArrived(message) {
 }
 
 function getAvatarUrl(id) {
-	return `../avatars/${id}.jpg`
+	return `avatars/${id}.jpg`
 }
 
 function showMessage(fromId, text) {
@@ -86,7 +86,7 @@ function showMessage(fromId, text) {
 }
 
 function playPing() {
-	new Audio('../ping.wav').play()
+	new Audio('ping.wav').play()
 }
 
 const activeIds = []
